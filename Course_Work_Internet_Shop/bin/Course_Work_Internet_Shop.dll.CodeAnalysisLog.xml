@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Users\Vitalik\Desktop\Course_Work_Internet_Shop\Course_Work_Internet_Shop\bin\Course_Work_Internet_Shop.dll">
+   <Modules>
+    <Module Name="course_work_internet_shop.dll">
+     <Namespaces>
+      <Namespace Name="Course_Work_Internet_Shop.Areas.HelpPage">
+       <Types>
+        <Type Name="HelpPageConfig" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Register(System.Web.Http.HttpConfiguration)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="bsonspec" TypeName="Литералы должны иметь правильное правописание" Category="Microsoft.Naming" CheckId="CA2204" Status="ExcludedInSource" Created="2019-04-17 22:18:44Z" FixCategory="DependsOnFix" LastSeen="0001-01-01 00:00:00Z">
+             <Notes>
+              <User Name="[SuppressMessage]">
+               <Note Id="12" />
+              </User>
+             </Notes>
+            </Message>
+            <Message Id="Course_Work_Internet_Shop.Areas.HelpPage.TextSample.#ctor(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="ExcludedInSource" Created="2019-04-17 22:18:44Z" FixCategory="DependsOnFix" LastSeen="0001-01-01 00:00:00Z">
+             <Notes>
+              <User Name="[SuppressMessage]">
+               <Note Id="11" />
+              </User>
+             </Notes>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="HelpPageConfigurationExtensions" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GenerateSamples(Course_Work_Internet_Shop.Areas.HelpPage.Models.HelpPageApiModel,Course_Work_Internet_Shop.Areas.HelpPage.HelpPageSampleGenerator)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="ExcludedInSource" Created="2019-04-17 22:18:44Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z">
+             <Notes>
+              <User Name="[SuppressMessage]">
+               <Note Id="13" />
+              </User>
+             </Notes>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="HelpPageSampleGenerator" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GetSampleObject(System.Type)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="ExcludedInSource" Created="2019-04-17 22:18:44Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z">
+             <Notes>
+              <User Name="[SuppressMessage]">
+               <Note Id="14" />
+              </User>
+             </Notes>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ResolveType(System.Web.Http.Description.ApiDescription,System.String,System.String,System.Collections.Generic.IEnumerable`1&lt;System.String&gt;,Course_Work_Internet_Shop.Areas.HelpPage.SampleDirection,System.Collections.ObjectModel.Collection`1&lt;System.Net.Http.Formatting.MediaTypeFormatter&gt;&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="AvoidOutParameters" Category="Microsoft.Design" CheckId="CA1021" Status="ExcludedInSource" Created="2019-04-17 22:18:44Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z">
+             <Notes>
+              <User Name="[SuppressMessage]">
+               <Note Id="15" />
+              </User>
+             </Notes>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SampleObjectFactories" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotNestGenericTypesInMemberSignatures" Category="Microsoft.Design" CheckId="CA1006" Status="ExcludedInSource" Created="2019-04-17 22:18:44Z" FixCategory="Breaking" LastSeen="0001-01-01 00:00:00Z">
+             <Notes>
+              <User Name="[SuppressMessage]">
+               <Note Id="19" />
+              </User>
+             </Notes>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TryFormatJson(System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="ExcludedInSource" Created="2019-04-17 22:18:44Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z">
+             <Notes>
+              <User Name="[SuppressMessage]">
+               <Note Id="17" />
+              </User>
+             </Notes>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TryFormatXml(System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="ExcludedInSource" Created="2019-04-17 22:18:44Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z">
+             <Notes>
+              <User Name="[SuppressMessage]">
+               <Note Id="18" />
+              </User>
+             </Notes>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WriteSampleObjectUsingFormatter(System.Net.Http.Formatting.MediaTypeFormatter,System.Object,System.Type,System.Net.Http.Headers.MediaTypeHeaderValue)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="ExcludedInSource" Created="2019-04-17 22:18:44Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z">
+             <Notes>
+              <User Name="[SuppressMessage]">
+               <Note Id="16" />
+              </User>
+             </Notes>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ObjectGenerator" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GenerateObject(System.Type,System.Collections.Generic.Dictionary`2&lt;System.Type,System.Object&gt;)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="ExcludedInSource" Created="2019-04-17 22:18:44Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z">
+             <Notes>
+              <User Name="[SuppressMessage]">
+               <Note Id="21" />
+              </User>
+             </Notes>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ObjectGenerator+SimpleTypeObjectGenerator" Kind="Class" Accessibility="Private" ExternallyVisible="False">
+         <Members>
+          <Member Name="#InitializeGenerators()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502" Status="ExcludedInSource" Created="2019-04-17 22:18:44Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z">
+             <Notes>
+              <User Name="[SuppressMessage]">
+               <Note Id="20" />
+              </User>
+             </Notes>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Notes>
+  <User Name="[SuppressMessage]">
+   <Note Id="11" Modified="2019-04-17 22:18:44Z">End users may choose to merge this string with existing localized resources.</Note>
+   <Note Id="12" Modified="2019-04-17 22:18:44Z">Part of a URI.</Note>
+   <Note Id="13" Modified="2019-04-17 22:18:44Z">The exception is recorded as ErrorMessages.</Note>
+   <Note Id="14" Modified="2019-04-17 22:18:45Z">Even if all items in SampleObjectFactories throw, problem will be visible as missing sample.</Note>
+   <Note Id="15" Modified="2019-04-17 22:18:45Z">This is only used in advanced scenarios.</Note>
+   <Note Id="16" Modified="2019-04-17 22:18:45Z">The exception is recorded as InvalidSample.</Note>
+   <Note Id="17" Modified="2019-04-17 22:18:45Z">Handling the failure by returning the original string.</Note>
+   <Note Id="18" Modified="2019-04-17 22:18:45Z">Handling the failure by returning the original string.</Note>
+   <Note Id="19" Modified="2019-04-17 22:18:45Z">This is an appropriate nesting of generic types</Note>
+   <Note Id="20" Modified="2019-04-17 22:18:45Z">These are simple type factories and cannot be split up.</Note>
+   <Note Id="21" Modified="2019-04-17 22:18:45Z">Here we just want to return null if anything goes wrong.</Note>
+  </User>
+ </Notes>
+ <Rules>
+  <Rule TypeName="AvoidExcessiveComplexity" Category="Microsoft.Maintainability" CheckId="CA1502">
+   <Name>Избегайте чрезмерной сложности</Name>
+   <Description>Реализации излишне сложных методов усложняют понимание и поддержку кода.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182212.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Warning</MessageLevel>
+   <File Name="maintainabilityrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidOutParameters" Category="Microsoft.Design" CheckId="CA1021">
+   <Name>Не используйте параметры out</Name>
+   <Description>Использование выходных параметров может указывать на низкое качество проектирования. Хотя существуют ситуации, когда применение выходных параметров вполне оправданно, их частое использование свидетельствует о подходе к проектированию, который не соответствует рекомендациям по проектированию управляемого кода.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182131.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031">
+   <Name>Не перехватывайте типы общих исключений</Name>
+   <Description>Не следует перехватывать исключения типа Exception или SystemException. Перехватывание исключений общего назначения может скрыть от пользователя библиотеки ошибки времени выполнения и осложнить процесс отладки. Перехватывать следует только те исключения, которые вы можете правильно обработать.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182137.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotNestGenericTypesInMemberSignatures" Category="Microsoft.Design" CheckId="CA1006">
+   <Name>Не создавайте вложенных универсальных типов в сигнатурах членов</Name>
+   <Description>Не используйте API, который требует от пользователей создавать экземпляры универсального типа, у которых аргументом типа служит другой универсальный тип. Синтаксис становится слишком сложным.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182144.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="Литералы должны иметь правильное правописание" Category="Microsoft.Naming" CheckId="CA2204">
+   <Name>Литералы должны иметь правильное правописание</Name>
+   <Description>Это правило осуществляет разбор строк литералов на слова, разбивку составных слов на лексемы и проверку орфографии для всех слов и лексем.</Description>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/bb264488.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303">
+   <Name>Не передавать литералы в качестве локализованных параметров</Name>
+   <Description>Строки литералов, внедренные в исходный код, сложно локализировать. Избегайте передачи строк типа литерал в качестве аргументов в случаях, когда ожидается локализованная строка.</Description>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182187.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Категория</String>
+  <String Key="Certainty">Достоверность</String>
+  <String Key="CollapseAll">Свернуть все</String>
+  <String Key="CheckId">ИД проверки</String>
+  <String Key="Error">Ошибка</String>
+  <String Key="Errors">ошибки</String>
+  <String Key="ExpandAll">Развернуть все</String>
+  <String Key="Help">Справка</String>
+  <String Key="Line">Строка</String>
+  <String Key="Messages">сообщения</String>
+  <String Key="LocationNotStoredInPdb">[расположение не сохранено в PDB]</String>
+  <String Key="Project">Проект</String>
+  <String Key="Resolution">Разрешение</String>
+  <String Key="Rule">Правило</String>
+  <String Key="RuleFile">Файл правил</String>
+  <String Key="RuleDescription">Описание правила</String>
+  <String Key="Source">Источник</String>
+  <String Key="Status">Состояние</String>
+  <String Key="Target">Цель</String>
+  <String Key="Warning">Предупреждение</String>
+  <String Key="Warnings">предупреждения</String>
+  <String Key="ReportTitle">Отчет по анализу кода</String>
+ </Localized>
+</FxCopReport>

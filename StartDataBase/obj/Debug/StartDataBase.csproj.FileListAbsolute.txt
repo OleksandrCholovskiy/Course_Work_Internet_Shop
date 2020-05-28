@@ -1,0 +1,15 @@
+C:\Users\Vitalik\Desktop\CourseWeb_3\StartDataBase\bin\Debug\StartDataBase.exe.config
+C:\Users\Vitalik\Desktop\CourseWeb_3\StartDataBase\bin\Debug\StartDataBase.exe
+C:\Users\Vitalik\Desktop\CourseWeb_3\StartDataBase\bin\Debug\StartDataBase.pdb
+C:\Users\Vitalik\Desktop\CourseWeb_3\StartDataBase\bin\Debug\DAL.dll
+C:\Users\Vitalik\Desktop\CourseWeb_3\StartDataBase\bin\Debug\EntityFramework.dll
+C:\Users\Vitalik\Desktop\CourseWeb_3\StartDataBase\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vitalik\Desktop\CourseWeb_3\StartDataBase\bin\Debug\DAL.pdb
+C:\Users\Vitalik\Desktop\CourseWeb_3\StartDataBase\bin\Debug\DAL.dll.config
+C:\Users\Vitalik\Desktop\CourseWeb_3\StartDataBase\bin\Debug\EntityFramework.xml
+C:\Users\Vitalik\Desktop\CourseWeb_3\StartDataBase\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vitalik\Desktop\CourseWeb_3\StartDataBase\obj\Debug\StartDataBase.csprojAssemblyReference.cache
+C:\Users\Vitalik\Desktop\CourseWeb_3\StartDataBase\obj\Debug\StartDataBase.csproj.CoreCompileInputs.cache
+C:\Users\Vitalik\Desktop\CourseWeb_3\StartDataBase\obj\Debug\StartDataBase.csproj.CopyComplete
+C:\Users\Vitalik\Desktop\CourseWeb_3\StartDataBase\obj\Debug\StartDataBase.exe
+C:\Users\Vitalik\Desktop\CourseWeb_3\StartDataBase\obj\Debug\StartDataBase.pdb
